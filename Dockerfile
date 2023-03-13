@@ -4,7 +4,7 @@ FROM adoptopenjdk/openjdk11:alpine-jre
 WORKDIR /usr/app
 
 # Copy the build files from the host to the container
-COPY build/libs/demo-0.0.1-SNAPSHOT.jar /usr/app.jar
+COPY build/libs/springroutes-0.0.1-SNAPSHOT.jar /usr/app.jar
 
 # Expose port 80 for the container
 EXPOSE 80
